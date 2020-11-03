@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DefindVariable/DefindVariable.iml" filepath="$PROJECT_DIR$/DefindVariable/DefindVariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DefineVariable/DefineVariable.iml" filepath="$PROJECT_DIR$/DefineVariable/DefineVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
     </modules>
   </component>
