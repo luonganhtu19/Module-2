@@ -3,38 +3,42 @@ import java.util.Scanner;
 
 public class DayOfMonth {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Find days Month");
         System.out.print("Input month: ");
-        int inMonth=scanner.nextInt();
+        int inMonth = scanner.nextInt();
         System.out.print("Input Year: ");
-        int inYear=scanner.nextInt();
+        int inYear = scanner.nextInt();
+        boolean isLeapYear;
 
-        if (inYear%4==0){
-            if (inYear%100!=0){
-                if (inMonth==2){
-                    System.out.println(inYear + " is Leap Year  and 2 month has 29 days ");
-                }else {
-                    System.out.print(inYear+" is Leap Year and ");
-                }
-            }else {
-                if (inYear%400==0){
-                    if (inMonth==2){
-                        System.out.println(inYear+" is Leap Year  and 2 month has 29 days ");
-                    }else {
-                        System.out.print(inYear+" is Leap Year and ");
-                    }
-                }else {
-                    if (inMonth==2){
-                        System.out.println(inYear+" is Common Year and 2 month has 28 days ");
-                    }else {
-                        System.out.print(inYear+ " is Common Year: and ");
-                    }
+        if (inYear % 4 == 0) {
+            if (inYear % 100 != 0) {
+                isLeapYear = true;
+            } else {
+                if (inYear % 400 == 0) {
+                    isLeapYear = true;
+                } else {
+                    isLeapYear = false;
                 }
             }
+        } else {
+            isLeapYear = false;
         }
-        switch (inMonth){
+        if (isLeapYear) {
+            if (inMonth == 2) {
+                System.out.println(inYear + " is Leap Year  and 2 month has 29 days ");
+            } else {
+                System.out.print(inYear + " is Leap Year and ");
+            }
+        } else {
+            if (inMonth == 2) {
+                System.out.println(inYear + " is Common Year and 2 month has 28 days ");
+            } else {
+                System.out.print(inYear + " is Common Year: and ");
+            }
+        }
+        switch (inMonth) {
             case 1:
             case 3:
             case 5:
