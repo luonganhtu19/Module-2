@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/IndexBMI/IndexBMI.iml" filepath="$PROJECT_DIR$/IndexBMI/IndexBMI.iml" />
       <module fileurl="file://$PROJECT_DIR$/RectangleProgram/RectangleProgram.iml" filepath="$PROJECT_DIR$/RectangleProgram/RectangleProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkPrime/checkPrime.iml" filepath="$PROJECT_DIR$/checkPrime/checkPrime.iml" />
     </modules>
   </component>
 </project>
