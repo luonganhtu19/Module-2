@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DayOfMonth/DayOfMonth.iml" filepath="$PROJECT_DIR$/DayOfMonth/DayOfMonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/DefindVariable/DefindVariable.iml" filepath="$PROJECT_DIR$/DefindVariable/DefindVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/DefineVariable/DefineVariable.iml" filepath="$PROJECT_DIR$/DefineVariable/DefineVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstDegreeEquation/FirstDegreeEquation.iml" filepath="$PROJECT_DIR$/FirstDegreeEquation/FirstDegreeEquation.iml" />
