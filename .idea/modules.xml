@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/MoneyRate/MoneyRate.iml" filepath="$PROJECT_DIR$/MoneyRate/MoneyRate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadNumber/ReadNumber.iml" filepath="$PROJECT_DIR$/ReadNumber/ReadNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/RectangleProgram/RectangleProgram.iml" filepath="$PROJECT_DIR$/RectangleProgram/RectangleProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReversePosition/ReversePosition.iml" filepath="$PROJECT_DIR$/ReversePosition/ReversePosition.iml" />
       <module fileurl="file://$PROJECT_DIR$/amontPirme/amontPirme.iml" filepath="$PROJECT_DIR$/amontPirme/amontPirme.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkPrime/checkPrime.iml" filepath="$PROJECT_DIR$/checkPrime/checkPrime.iml" />
     </modules>

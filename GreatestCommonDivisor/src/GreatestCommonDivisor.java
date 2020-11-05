@@ -22,4 +22,5 @@ public class GreatestCommonDivisor {
 
         System.out.println("Greatest common factor: " + max);
     }
+
 }
