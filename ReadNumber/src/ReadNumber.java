@@ -30,10 +30,9 @@ public class ReadNumber {
             int hundred = number / 100;
             int tenOfDigits = number % 100;
             int rowOfDigits = tenOfDigits % 10;
-//            System.out.println(hundred+":"+tenOfDigits+":"+":"+rowOfDigits);
             if (tenOfDigits < 10) {
-                if (rowOfDigits!=0)
-                System.out.println("Number : " + number + " is " + nameOfNumber[0][hundred] + " hundred and " + nameOfNumber[0][rowOfDigits]);
+                if (rowOfDigits != 0)
+                    System.out.println("Number : " + number + " is " + nameOfNumber[0][hundred] + " hundred and " + nameOfNumber[0][rowOfDigits]);
                 else
                     System.out.println("Number : " + number + " is " + nameOfNumber[0][hundred] + " hundred ");
 
