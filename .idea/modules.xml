@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/ReversePosition/ReversePosition.iml" filepath="$PROJECT_DIR$/ReversePosition/ReversePosition.iml" />
       <module fileurl="file://$PROJECT_DIR$/amontPirme/amontPirme.iml" filepath="$PROJECT_DIR$/amontPirme/amontPirme.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkPrime/checkPrime.iml" filepath="$PROJECT_DIR$/checkPrime/checkPrime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findInArray/findInArray.iml" filepath="$PROJECT_DIR$/findInArray/findInArray.iml" />
     </modules>
   </component>
 </project>
