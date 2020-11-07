@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/TemperatureSwitch/TemperatureSwitch.iml" filepath="$PROJECT_DIR$/TemperatureSwitch/TemperatureSwitch.iml" />
       <module fileurl="file://$PROJECT_DIR$/amontPirme/amontPirme.iml" filepath="$PROJECT_DIR$/amontPirme/amontPirme.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkPrime/checkPrime.iml" filepath="$PROJECT_DIR$/checkPrime/checkPrime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deleteElement/deleteElement.iml" filepath="$PROJECT_DIR$/deleteElement/deleteElement.iml" />
       <module fileurl="file://$PROJECT_DIR$/findInArray/findInArray.iml" filepath="$PROJECT_DIR$/findInArray/findInArray.iml" />
     </modules>
   </component>
