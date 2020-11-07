@@ -1,3 +1,5 @@
+import com.sun.xml.internal.ws.api.BindingIDFactory;
+
 import java.awt.*;
 import java.util.Scanner;
 
@@ -15,9 +17,18 @@ public class deleteElement {
             }
             size =(int) Double.parseDouble(inputSize);
         } while (size > 20);
-
         arrayNumber = new double[size];
         int length = size;
+        while (size > 0) {
+            System.out.print("Element " + (length - size + 1)+": ");
+            String inputNumber = input.nextLine();
+            if (!isNumeric(inputNumber)) {
+                System.out.println("please input value element is number");
+                continue;
+            }
+            arrayNumber[length - size] = Double.parseDouble(inputNumber);
+            size--;
+        }
 
         do {
             System.out.println("Menu: ");
@@ -34,7 +45,7 @@ public class deleteElement {
                 break;
             }
             if (choice ==1){
-                addElement(size,arrayNumber);
+                addElement(arrayNumber);
             }
             if (choice == 2) {
                 deleteElement(arrayNumber);
@@ -76,19 +87,26 @@ public class deleteElement {
             System.out.println("No exit element: "+valueEle);
         }
     }
-    public static void addElement(int size, double[] arrayNumber){
-        int length=size;
+    public static void addElement( double[] arrayNumber){
+        int length=arrayNumber.length;
         Scanner inputElement= new Scanner(System.in);
-        while (size > 0) {
-            System.out.print("Element " + (length - size + 1)+": ");
-            String inputNumber = inputElement.nextLine();
-            if (!isNumeric(inputNumber)) {
-                System.out.println("please input value element is number");
-                continue;
-            }
-            arrayNumber[length - size] = Double.parseDouble(inputNumber);
-            size--;
-        }
+        display(arrayNumber);
+        int index=0;
+        Boolean checkIndex=true;
+        String valueEle;
+        do {
+            System.out.println("Position is want add element (It has Value less than  " +length+" is length of array )");
+            String strIndex=  inputElement.nextLine();
+            if (!isNumeric(strIndex)) continue;
+             index=(int) Double.parseDouble(strIndex);
+            if (index>length||index<0) continue;
+            checkIndex=false;
+        }while (checkIndex);
+        do {
+            System.out.println("Value of element is position "+index+" :");
+            valueEle=inputElement.nextLine();
+        } while (!isNumeric(valueEle));
+        arrayNumber[index]=Double.parseDouble(valueEle);
         display(arrayNumber);
     }
 }
